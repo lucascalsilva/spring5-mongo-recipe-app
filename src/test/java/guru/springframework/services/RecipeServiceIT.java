@@ -38,7 +38,7 @@ public class RecipeServiceIT {
     @Autowired
     RecipeToRecipeCommand recipeToRecipeCommand;
 
-    @Transactional
+  //  @Transactional
     @Test
     public void testSaveOfDescription() throws Exception {
         //given
